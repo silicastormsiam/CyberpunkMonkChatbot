@@ -173,3 +173,5 @@ Licensed under the [MIT License](https://github.com/silicastormsiam/CyberpunkMon
 > *“To walk the Way of Code, one must also read the README.” – Cyberpunk Monk*
 
 https://chatgpt.com/c/68942b73-d350-8330-9a45-daa4fe017214 
+
+https://grok.com/chat/4728eb6a-4c40-458e-9d5d-b791250b3b74 
