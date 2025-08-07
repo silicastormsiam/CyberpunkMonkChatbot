@@ -171,3 +171,5 @@ Set scheduler to run via `monitoring.py` and interact via UI or CLI.
 Licensed under the [MIT License](https://github.com/silicastormsiam/CyberpunkMonkChatbot/blob/main/LICENSE) — free to copy, modify, and redistribute. No karma required.
 
 > *“To walk the Way of Code, one must also read the README.” – Cyberpunk Monk*
+
+https://chatgpt.com/c/68942b73-d350-8330-9a45-daa4fe017214 
