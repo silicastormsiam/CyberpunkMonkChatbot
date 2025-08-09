@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk Monk Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #2a2d76;
+            background-image: url('/public_html/chatbot/cyberpunk-bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: 'Orbitron', sans-serif;
+            color: #A8C8D6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .chat-container {
+            background-color: rgba(41, 45, 116, 0.9);
+            border: 2px solid #A8C8D6;
+            border-radius: 10px;
+            padding: 20px;
+            width: 400px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        .chat-box {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .message {
+            padding: 10px;
+            border-radius: 5px;
+            max-width: 80%;
+        }
+        .user-message {
+            background-color: #3D3F79;
+            align-self: flex-end;
+        }
+        .bot-message {
+            background-color: #843880;
+            align-self: flex-start;
+        }
+        .input-container {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #A8C8D6;
+            border-radius: 5px;
+            background-color: #292D74;
+            color: #A8C8D6;
+            font-family: 'Orbitron', sans-serif;
+        }
+        input[type="text"]::placeholder {
+            color: #843880;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #3D3F79;
+            color: #A8C8D6;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Orbitron', sans-serif;
+        }
+        button:hover {
+            background-color: #843880;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box">
+            <!-- Messages will be dynamically added here -->
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Ask the Cyberpunk Monk...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
