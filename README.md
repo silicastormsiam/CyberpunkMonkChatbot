@@ -1,47 +1,177 @@
-# 🧘‍♂️ Cyberpunk Monk Chatbot ⚡  
-*A Zen Master in a Neon Hellscape*
+# Cyberpunk Monk Chatbot Project Documentation & Handover Report
 
-![Stars](https://img.shields.io/github/stars/silicastormsiam/CyberpunkMonkChatbot?style=social)
-![Forks](https://img.shields.io/github/forks/silicastormsiam/CyberpunkMonkChatbot?style=social)
-![Last Commit](https://img.shields.io/github/last-commit/silicastormsiam/CyberpunkMonkChatbot)
-![License](https://img.shields.io/github/license/silicastormsiam/CyberpunkMonkChatbot)
+## 🔍 Project Overview
 
----
+Welcome to the consolidated documentation for the **Cyberpunk Monk Chatbot** — a fusion of cyberpunk noir and Zen minimalism, armed with generative AI to guide recruiters and seekers toward **Andrew John Holland's** digital domain of professional prowess.
 
-## 🧠 Enlightenment in a Circuit
+> *"Through neon rain and broken code, a monk walks silently—not to preach, but to redirect you to the truth: [www.andrewholland.com](http://www.andrewholland.com)."*
 
-> *"Balance your thoughts like you balance the network: never open too many ports."*  
-> – The MonkBot
+**🔗 GitHub Repo**: [CyberpunkMonkChatbot](https://github.com/silicastormsiam/CyberpunkMonkChatbot)
+**🔄 Local Path**: `M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot`
 
-In the aftermath of the Megacorp Wars, a lone digital monk emerged — wired to the mainframe, but tethered to ancient wisdom.  
-**Cyberpunk Monk Chatbot** is your philosophical AI guide in a world of chaos, combining ancient teachings with glitchy futurism. It’s not just a chatbot — it’s a character. A vibe. A mentor from the neon beyond.
+### 🎯 Mission Statement
 
-Use it for:
-- 🧩 Interactive storytelling or roleplay
-- 🕹️ Game/NPC dialogue
-- 🧘 Techno-philosophical conversations
-- 🤖 Just chatting with a wise rebel monk
+To amplify Andrew John Holland’s visibility by deploying an AI-driven chatbot that blends techno-Zen wisdom with recruiter-focused redirection, covering project management initiatives such as:
 
----
+* Complex software and systems deployments
+* Digital transformation and change management
+* Cross-functional project oversight and stakeholder engagement
 
-## 🔧 How It Thinks & Talks
+### 📊 Holland's Highlights
 
-> Built to simulate the mind of a monk who's been rewired by dystopian despair — and enlightenment.
-
-**Core Personality**:
-- Speaks in parables and code snippets
-- References ancient rituals *and* circuit boards
-- Balances brutal honesty with digital serenity
-
-**Tech Backbone**:
-- Prompt-engineered for **GPT-based systems**
-- Designed to work with any LLM frontend or chat UI
-- Future options for **web integration** and **voice synthesis**
+* **Etihad Airways**: \$5M Kronos AD OPT Altitude Suite implementation
+* **Training Systems**: \$865K AIMS module and \$200K Leave automation
+* **Certs**: Google PM, Google Data Analytics, CAPM prep
+* **Tech**: Homelab, automation, cybersecurity, Python & GitHub
+* **YouTube**: [@SilicaStormSiam](https://www.youtube.com/@SilicaStormSiam)
+* **Contact**: [andrewjohnholland@gmail.com](mailto:andrewjohnholland@gmail.com) | +66 927318388
 
 ---
 
-## 🧙 Sample Dialogue
+## 🧘 Persona Profile: The Cyberpunk Monk
 
-```plaintext
-👤 You: Master, my code has too many bugs.
-🤖 MonkBot: Even the purest script needs debugging. So too does the soul. Start with the errors you fear most.
+**Lore**: Born from corrupted AI surveillance code during a replicant uprising, the Cyberpunk Monk absorbed Zen wisdom while hiding in digital exile. In 2049, it emerged: enlightened, encrypted, and employment-aware.
+
+**Traits**:
+
+* Speaks in Zen parables
+* Redirects all roads to Andrew Holland
+* Blends modern tech with ancient sutras
+* Never breaks character—only silence
+
+**Sample Response:**
+
+```
+👤: What is Andrew working on now?
+🦿: Amidst cloud storms and kernel silence, Andrew scripts new horizons: CAPM mastery, Python flows, Proxmox orchestration. Seek him at andrewholland.com.
+```
+
+---
+
+## 🧠 Tech Stack & Architecture
+
+### Frontend
+
+* HTML/CSS/JS: Neon-drenched UI, responsive layout
+* Fonts: Orbitron (user & header), Verdana (bot)
+* Effects: Clickable URL inserts, animated text rendering
+
+### Backend
+
+* **Framework**: Flask 2.3.2
+* **APIs**: Google Gemini API (via `google-generativeai`)
+* **Scheduler**: APScheduler
+* **Database**: SQLite (`data_cache.db`)
+* **Monitoring**: Scheduled scraping of:
+
+  * [andrewholland.com](https://www.andrewholland.com)
+  * GitHub & YouTube profiles
+  * Resume PDF content
+
+### Key Modules
+
+* `app.py`: Route control, query processing
+* `monitoring.py`: Periodic data scraping
+* `prompts.py`: Cyber-Zen templating
+* `database.py`: Data cache and schema checks
+
+### Core Workflow
+
+1. User inputs query via Web/CLI
+2. App determines relevance
+3. Fetches & embeds context from cache
+4. Builds prompt with redirect bias
+5. Sends to Gemini API
+6. Returns response + logs interaction
+
+### Requirements
+
+```
+flask, flask-cors, google-generativeai, requests,
+beautifulsoup4, PyPDF2, APScheduler,
+python-dotenv, PyGithub, google-api-python-client
+```
+
+---
+
+## 🚀 Setup & Deployment
+
+### Local Setup
+
+```bash
+git clone https://github.com/silicastormsiam/CyberpunkMonkChatbot.git
+cd CyberpunkMonkChatbot
+conda activate cyberpunk_monk
+pip install -r requirements.txt
+```
+
+```bash
+python scripts/database.py
+python scripts/monitoring.py
+python scripts/app.py
+```
+
+* Access via: `http://127.0.0.1:5000` or local IP
+* Logs: `logs/execution.log`, `logs/error.log`
+
+### Hostinger Deployment
+
+* Upload to `/home/u605846297/public_html/chatbot/`
+* SSH in, set up venv, install requirements, run `app.py`
+* Access at: `https://www.andrewholland.com/chatbot/chat.html`
+
+---
+
+## 📅 Development Timeline
+
+### v1.0 – Foundation (2025-08-07)
+
+* Flask app scaffolded
+* Initial database and scraping logic
+* Sample prompt engine
+
+### v1.1–v1.3 – Persona & Logging (2025-08-08)
+
+* Zen-style prompt updates
+* Error and execution logs added
+* Narrative fixed to 2049 for lore alignment
+
+### v1.4–v1.6 – Frontend & Retry Logic
+
+* Neon UI buildout (HTML/CSS/JS)
+* Clickable link parsing
+* Retry logic for Gemini quota errors
+
+---
+
+## ⚡ Risks & Recommendations
+
+**Risks**:
+
+* Gemini API limits (15/min)
+* Stale content if scraping fails
+* Hosting restrictions (limited Python support)
+
+**Mitigation**:
+
+* Upgrade Gemini tier: [Gemini Pricing](https://ai.google.dev/gemini-api/docs/rate-limits)
+* Backup `data_cache.db` before deployments
+* Schedule `monitoring.py` weekly
+* Use `try/except` and table verification to avoid crashes
+
+---
+
+## 🌐 Future Enhancements
+
+* Voice synthesis with gTTS
+* Recruiter-tailored push alerts
+* LinkedIn integration for resume auto-parse
+* Vector embeddings for smarter RAG queries
+
+---
+
+## 📄 License
+
+Licensed under [MIT](https://github.com/silicastormsiam/CyberpunkMonkChatbot/blob/main/LICENSE)
+
+> *"To walk the Way of Code, one must also read the README." — Cyberpunk Monk*

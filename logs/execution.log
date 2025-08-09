@@ -1,0 +1,691 @@
+2025-08-07 18:01:24,391 - INFO - Executing database.py
+2025-08-07 18:01:24,391 - DEBUG - Initializing database: data_cache.db
+2025-08-07 18:01:24,625 - INFO - Database initialized successfully
+2025-08-07 18:01:24,625 - DEBUG - Database connection closed
+2025-08-07 18:01:53,328 - INFO - Executing test_api.py
+2025-08-07 18:01:53,329 - INFO - Starting API test
+2025-08-07 18:01:53,330 - DEBUG - Generating content for 'Hello, world!'
+2025-08-07 18:01:55,174 - INFO - API response: Hello there!  How can I help you today?
+
+2025-08-07 18:02:09,074 - INFO - Starting Flask application
+2025-08-07 18:02:09,083 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+2025-08-07 18:02:09,083 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 18:02:37,547 - DEBUG - Attempting to serve index.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\index.html
+2025-08-07 18:02:37,549 - INFO - 192.168.1.225 - - [07/Aug/2025 18:02:37] "GET / HTTP/1.1" 200 -
+2025-08-07 18:02:37,584 - INFO - 192.168.1.225 - - [07/Aug/2025 18:02:37] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2025-08-07 18:02:37,584 - INFO - 192.168.1.225 - - [07/Aug/2025 18:02:37] "GET /static/styles.css HTTP/1.1" 200 -
+2025-08-07 18:02:37,784 - INFO - 192.168.1.225 - - [07/Aug/2025 18:02:37] "GET /static/favicon.png HTTP/1.1" 200 -
+2025-08-07 18:18:08,292 - INFO - Executing database.py
+2025-08-07 18:18:08,292 - DEBUG - Initializing database: data_cache.db
+2025-08-07 18:18:08,294 - INFO - Database initialized successfully
+2025-08-07 18:18:08,294 - DEBUG - Database connection closed
+2025-08-07 18:18:53,883 - INFO - Starting Flask application
+2025-08-07 18:18:53,891 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+2025-08-07 18:18:53,891 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 18:19:02,164 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-07 18:19:02,164 - ERROR - chat.html not found in static/
+2025-08-07 18:19:02,165 - INFO - 192.168.1.225 - - [07/Aug/2025 18:19:02] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-07 18:19:02,245 - DEBUG - Attempting to serve static file: favicon.ico
+2025-08-07 18:19:02,245 - ERROR - Error serving static file favicon.ico: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-08-07 18:19:02,246 - INFO - 192.168.1.225 - - [07/Aug/2025 18:19:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-07 18:20:54,758 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-07 18:20:54,758 - ERROR - chat.html not found in static/
+2025-08-07 18:20:54,759 - INFO - 192.168.1.225 - - [07/Aug/2025 18:20:54] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-07 18:41:52,995 - INFO - Executing database.py
+2025-08-07 18:41:52,995 - DEBUG - Initializing database: data_cache.db
+2025-08-07 18:41:52,996 - INFO - Database initialized successfully
+2025-08-07 18:41:52,996 - DEBUG - Database connection closed
+2025-08-07 18:42:13,492 - INFO - Executing test_api.py
+2025-08-07 18:42:13,492 - INFO - Starting API test
+2025-08-07 18:42:13,494 - DEBUG - Generating content for 'Hello, world!'
+2025-08-07 18:42:15,182 - INFO - API response: Hello, world!  (And hello to you too!)
+
+2025-08-07 18:42:25,603 - INFO - Starting Flask application
+2025-08-07 18:42:25,612 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+2025-08-07 18:42:25,613 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 18:42:34,080 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-07 18:42:34,083 - INFO - 192.168.1.225 - - [07/Aug/2025 18:42:34] "GET / HTTP/1.1" 200 -
+2025-08-07 18:42:34,092 - INFO - 192.168.1.225 - - [07/Aug/2025 18:42:34] "GET /static/styles.css HTTP/1.1" 200 -
+2025-08-07 18:42:34,093 - INFO - 192.168.1.225 - - [07/Aug/2025 18:42:34] "GET /static/script.js HTTP/1.1" 200 -
+2025-08-07 18:42:34,110 - INFO - 192.168.1.225 - - [07/Aug/2025 18:42:34] "GET /static/cyberpunk-bg.jpg HTTP/1.1" 200 -
+2025-08-07 18:42:34,203 - INFO - 192.168.1.225 - - [07/Aug/2025 18:42:34] "[33mGET /static/favicon.ico HTTP/1.1[0m" 404 -
+2025-08-07 18:42:42,798 - DEBUG - Received POST request to /monk: {"message":"hello"}
+2025-08-07 18:42:46,823 - INFO - Generated response for query: hello
+2025-08-07 18:42:46,824 - INFO - 192.168.1.225 - - [07/Aug/2025 18:42:46] "POST /monk HTTP/1.1" 200 -
+2025-08-07 20:45:58,668 - INFO - Executing database.py
+2025-08-07 20:45:58,668 - DEBUG - Initializing database: data_cache.db
+2025-08-07 20:45:58,670 - INFO - Database initialized successfully
+2025-08-07 20:45:58,670 - DEBUG - Database connection closed
+2025-08-07 20:50:59,954 - INFO - Executing database.py
+2025-08-07 20:50:59,954 - DEBUG - Initializing database: data_cache.db
+2025-08-07 20:50:59,955 - INFO - Database initialized successfully
+2025-08-07 20:50:59,956 - DEBUG - Database connection closed
+2025-08-07 20:51:15,461 - INFO - Executing monitoring.py
+2025-08-07 20:51:15,462 - DEBUG - Looking up time zone info from registry
+2025-08-07 20:51:15,469 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-07 20:51:15,470 - INFO - Added job "monitor_urls" to job store "default"
+2025-08-07 20:51:15,470 - INFO - Scheduler started
+2025-08-07 20:51:15,471 - DEBUG - Looking for jobs to run
+2025-08-07 20:51:15,500 - DEBUG - Next wakeup is due at 2025-08-14 20:51:15.468986+07:00 (in 604799.967993 seconds)
+2025-08-07 20:51:30,521 - INFO - Scheduler has been shut down
+2025-08-07 20:51:30,522 - DEBUG - Looking for jobs to run
+2025-08-07 20:51:30,523 - DEBUG - No jobs; waiting until a job is added
+2025-08-07 20:51:30,523 - INFO - Monitoring stopped
+2025-08-07 20:54:44,279 - INFO - Executing database.py
+2025-08-07 20:54:44,279 - DEBUG - Initializing database: data_cache.db
+2025-08-07 20:54:44,280 - INFO - Database initialized successfully
+2025-08-07 20:54:44,281 - DEBUG - Database connection closed
+2025-08-07 20:55:03,959 - INFO - Executing monitoring.py
+2025-08-07 20:55:03,960 - DEBUG - Looking up time zone info from registry
+2025-08-07 20:55:03,961 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-07 20:55:03,962 - INFO - Added job "monitor_urls" to job store "default"
+2025-08-07 20:55:03,962 - INFO - Scheduler started
+2025-08-07 20:55:03,963 - DEBUG - Looking for jobs to run
+2025-08-07 20:55:03,990 - DEBUG - Next wakeup is due at 2025-08-14 20:55:03.961810+07:00 (in 604799.970995 seconds)
+2025-08-07 20:55:11,969 - INFO - Scheduler has been shut down
+2025-08-07 20:55:11,970 - DEBUG - Looking for jobs to run
+2025-08-07 20:55:11,970 - DEBUG - No jobs; waiting until a job is added
+2025-08-07 20:55:11,971 - INFO - Monitoring stopped
+2025-08-07 20:55:31,912 - INFO - Executing test_api.py
+2025-08-07 20:55:31,912 - INFO - Starting API test
+2025-08-07 20:55:31,914 - DEBUG - Generating content for 'Hello, world!'
+2025-08-07 20:55:33,615 - INFO - API response: Hello, world!
+
+2025-08-07 20:55:42,925 - INFO - Starting Flask application
+2025-08-07 20:55:42,933 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+2025-08-07 20:55:42,934 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 20:55:46,823 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-07 20:55:46,825 - INFO - 192.168.1.225 - - [07/Aug/2025 20:55:46] "GET / HTTP/1.1" 200 -
+2025-08-07 20:55:46,848 - INFO - 192.168.1.225 - - [07/Aug/2025 20:55:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-08-07 20:55:46,849 - INFO - 192.168.1.225 - - [07/Aug/2025 20:55:46] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-08-07 20:55:46,855 - INFO - 192.168.1.225 - - [07/Aug/2025 20:55:46] "GET /static/cyberpunk-bg.jpg HTTP/1.1" 200 -
+2025-08-07 20:55:56,835 - DEBUG - Received POST request to /monk: {"message":"dancing with the electric sheep"}
+2025-08-07 20:55:56,837 - ERROR - Error in /monk endpoint: no such table: data_cache
+2025-08-07 20:55:56,838 - INFO - 192.168.1.225 - - [07/Aug/2025 20:55:56] "[35m[1mPOST /monk HTTP/1.1[0m" 500 -
+2025-08-07 20:56:04,259 - DEBUG - Received POST request to /monk: {"message":"hello"}
+2025-08-07 20:56:04,260 - ERROR - Error in /monk endpoint: no such table: data_cache
+2025-08-07 20:56:04,260 - INFO - 192.168.1.225 - - [07/Aug/2025 20:56:04] "[35m[1mPOST /monk HTTP/1.1[0m" 500 -
+2025-08-07 20:56:15,722 - DEBUG - Received POST request to /monk: {"message":"any sex robots here for hire"}
+2025-08-07 20:56:15,723 - ERROR - Error in /monk endpoint: no such table: data_cache
+2025-08-07 20:56:15,724 - INFO - 192.168.1.225 - - [07/Aug/2025 20:56:15] "[35m[1mPOST /monk HTTP/1.1[0m" 500 -
+2025-08-07 21:04:17,431 - INFO - Executing database.py
+2025-08-07 21:04:17,432 - DEBUG - Attempting to connect to database at: M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\data_cache.db
+2025-08-07 21:04:17,432 - DEBUG - Connected to database at: M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\data_cache.db
+2025-08-07 21:04:17,603 - INFO - Database initialized successfully with table 'data_cache'
+2025-08-07 21:04:17,603 - DEBUG - Table 'data_cache' confirmed to exist
+2025-08-07 21:04:17,604 - DEBUG - Database connection closed
+2025-08-07 21:04:48,144 - INFO - Executing monitoring.py
+2025-08-07 21:04:48,144 - DEBUG - Looking up time zone info from registry
+2025-08-07 21:04:48,146 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-07 21:04:48,147 - INFO - Added job "monitor_urls" to job store "default"
+2025-08-07 21:04:48,147 - INFO - Scheduler started
+2025-08-07 21:04:48,148 - DEBUG - Looking for jobs to run
+2025-08-07 21:04:48,178 - DEBUG - Next wakeup is due at 2025-08-14 21:04:48.145783+07:00 (in 604799.966992 seconds)
+2025-08-07 21:05:31,345 - INFO - Scheduler has been shut down
+2025-08-07 21:05:31,346 - DEBUG - Looking for jobs to run
+2025-08-07 21:05:31,346 - DEBUG - No jobs; waiting until a job is added
+2025-08-07 21:05:31,346 - INFO - Monitoring stopped
+2025-08-07 21:06:28,353 - INFO - Executing test_api.py
+2025-08-07 21:06:28,354 - INFO - Starting API test
+2025-08-07 21:06:28,355 - DEBUG - Generating content for 'Hello, world!'
+2025-08-07 21:06:38,518 - INFO - API response: Hello, world!  It's nice to meet you too.
+
+2025-08-07 21:06:51,494 - INFO - Starting Flask application
+2025-08-07 21:06:51,502 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+2025-08-07 21:06:51,503 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 21:06:56,077 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-07 21:06:56,080 - INFO - 192.168.1.225 - - [07/Aug/2025 21:06:56] "GET / HTTP/1.1" 200 -
+2025-08-07 21:06:56,092 - INFO - 192.168.1.225 - - [07/Aug/2025 21:06:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-08-07 21:06:56,093 - INFO - 192.168.1.225 - - [07/Aug/2025 21:06:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-08-07 21:06:56,097 - INFO - 192.168.1.225 - - [07/Aug/2025 21:06:56] "[36mGET /static/cyberpunk-bg.jpg HTTP/1.1[0m" 304 -
+2025-08-07 21:07:07,771 - DEBUG - Received POST request to /monk: {"message":"Hello Monk, have you seen Andrew"}
+2025-08-07 21:07:18,019 - DEBUG - Received POST request to /monk: {"message":"can you reply to me?"}
+2025-08-07 21:07:18,622 - INFO - Generated response for query: hello monk, have you seen andrew
+2025-08-07 21:07:18,623 - INFO - 192.168.1.225 - - [07/Aug/2025 21:07:18] "POST /monk HTTP/1.1" 200 -
+2025-08-07 21:07:23,192 - INFO - Generated response for query: can you reply to me?
+2025-08-07 21:07:23,193 - INFO - 192.168.1.225 - - [07/Aug/2025 21:07:23] "POST /monk HTTP/1.1" 200 -
+2025-08-07 21:14:53,750 - INFO - Executing monitoring.py
+2025-08-07 21:14:53,750 - DEBUG - Looking up time zone info from registry
+2025-08-07 21:14:53,752 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-07 21:14:53,753 - INFO - Added job "monitor_urls" to job store "default"
+2025-08-07 21:14:53,753 - INFO - Scheduler started
+2025-08-07 21:14:53,754 - DEBUG - Looking for jobs to run
+2025-08-07 21:14:53,789 - DEBUG - Next wakeup is due at 2025-08-14 21:14:53.752007+07:00 (in 604799.962991 seconds)
+2025-08-07 21:15:15,001 - INFO - Scheduler has been shut down
+2025-08-07 21:15:15,001 - DEBUG - Looking for jobs to run
+2025-08-07 21:15:15,002 - DEBUG - No jobs; waiting until a job is added
+2025-08-07 21:15:15,002 - INFO - Monitoring stopped
+2025-08-07 21:16:06,721 - INFO - Executing test_api.py
+2025-08-07 21:16:06,722 - INFO - Starting API test
+2025-08-07 21:16:06,723 - DEBUG - Generating content for 'Hello, world!'
+2025-08-07 21:16:17,304 - INFO - API response: Hello, world!  (Back at you!)
+
+2025-08-07 21:16:22,914 - INFO - Starting Flask application
+2025-08-07 21:16:22,923 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+2025-08-07 21:16:22,929 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 21:16:28,027 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-07 21:16:28,029 - INFO - 192.168.1.225 - - [07/Aug/2025 21:16:28] "GET / HTTP/1.1" 200 -
+2025-08-07 21:16:28,051 - INFO - 192.168.1.225 - - [07/Aug/2025 21:16:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-08-07 21:16:28,052 - INFO - 192.168.1.225 - - [07/Aug/2025 21:16:28] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-08-07 21:16:28,062 - INFO - 192.168.1.225 - - [07/Aug/2025 21:16:28] "[36mGET /static/cyberpunk-bg.jpg HTTP/1.1[0m" 304 -
+2025-08-07 21:16:36,939 - DEBUG - Received POST request to /monk: {"message":"scoobie doo"}
+2025-08-07 21:16:39,128 - INFO - Generated response for query: scoobie doo
+2025-08-07 21:16:39,129 - INFO - 192.168.1.225 - - [07/Aug/2025 21:16:39] "POST /monk HTTP/1.1" 200 -
+2025-08-07 21:18:06,042 - DEBUG - Received POST request to /monk: {"message":"project manager"}
+2025-08-07 21:18:21,882 - DEBUG - Received POST request to /monk: {"message":"where did andrew go to school"}
+2025-08-07 21:18:35,314 - DEBUG - Received POST request to /monk: {"message":"where did andrew work in 2012"}
+2025-08-07 21:19:09,622 - ERROR - Error in /monk endpoint: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 50
+}
+]
+2025-08-07 21:19:09,625 - INFO - 192.168.1.225 - - [07/Aug/2025 21:19:09] "[35m[1mPOST /monk HTTP/1.1[0m" 500 -
+2025-08-07 21:19:11,225 - ERROR - Error in /monk endpoint: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+2025-08-07 21:19:11,226 - INFO - 192.168.1.225 - - [07/Aug/2025 21:19:11] "[35m[1mPOST /monk HTTP/1.1[0m" 500 -
+2025-08-07 21:19:12,339 - ERROR - Error in /monk endpoint: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 47
+}
+]
+2025-08-07 21:19:12,340 - INFO - 192.168.1.225 - - [07/Aug/2025 21:19:12] "[35m[1mPOST /monk HTTP/1.1[0m" 500 -
+2025-08-07 21:33:46,093 - INFO - Executing monitoring.py
+2025-08-07 21:33:46,093 - DEBUG - Looking up time zone info from registry
+2025-08-07 21:33:46,094 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-07 21:33:46,096 - INFO - Added job "monitor_urls" to job store "default"
+2025-08-07 21:33:46,096 - INFO - Scheduler started
+2025-08-07 21:33:46,097 - DEBUG - Looking for jobs to run
+2025-08-07 21:33:46,123 - DEBUG - Next wakeup is due at 2025-08-14 21:33:46.094957+07:00 (in 604799.970993 seconds)
+2025-08-07 21:34:01,184 - INFO - Scheduler has been shut down
+2025-08-07 21:34:01,185 - DEBUG - Looking for jobs to run
+2025-08-07 21:34:01,185 - DEBUG - No jobs; waiting until a job is added
+2025-08-07 21:34:01,185 - INFO - Monitoring stopped
+2025-08-07 21:36:09,636 - INFO - Executing test_api.py
+2025-08-07 21:36:09,636 - INFO - Starting API test
+2025-08-07 21:36:09,638 - DEBUG - Generating content for 'Hello, world!'
+2025-08-07 21:36:14,994 - INFO - API response: Hello, world!
+
+2025-08-07 21:36:46,028 - INFO - Starting Flask application
+2025-08-07 21:36:46,036 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+2025-08-07 21:36:46,036 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 21:36:50,966 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-07 21:36:50,968 - INFO - 192.168.1.225 - - [07/Aug/2025 21:36:50] "GET / HTTP/1.1" 200 -
+2025-08-07 21:36:51,031 - INFO - 192.168.1.225 - - [07/Aug/2025 21:36:51] "GET /static/script.js HTTP/1.1" 200 -
+2025-08-07 21:36:51,032 - INFO - 192.168.1.225 - - [07/Aug/2025 21:36:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-08-07 21:36:51,038 - INFO - 192.168.1.225 - - [07/Aug/2025 21:36:51] "[36mGET /static/cyberpunk-bg.jpg HTTP/1.1[0m" 304 -
+2025-08-07 21:36:56,555 - DEBUG - Received POST request to /monk: {"message":"hello monk"}
+2025-08-07 21:36:59,139 - INFO - Generated response for query: hello monk
+2025-08-07 21:36:59,140 - INFO - 192.168.1.225 - - [07/Aug/2025 21:36:59] "POST /monk HTTP/1.1" 200 -
+2025-08-07 21:44:57,274 - INFO - Executing monitoring.py
+2025-08-07 21:44:57,275 - DEBUG - Looking up time zone info from registry
+2025-08-07 21:44:57,276 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-07 21:44:57,277 - INFO - Added job "monitor_urls" to job store "default"
+2025-08-07 21:44:57,277 - INFO - Scheduler started
+2025-08-07 21:44:57,278 - DEBUG - Looking for jobs to run
+2025-08-07 21:44:57,306 - DEBUG - Next wakeup is due at 2025-08-14 21:44:57.276808+07:00 (in 604799.969993 seconds)
+2025-08-07 21:46:41,448 - INFO - Scheduler has been shut down
+2025-08-07 21:46:41,448 - DEBUG - Looking for jobs to run
+2025-08-07 21:46:41,449 - DEBUG - No jobs; waiting until a job is added
+2025-08-07 21:46:41,450 - INFO - Monitoring stopped
+2025-08-07 21:46:46,411 - INFO - Starting Flask application
+2025-08-07 21:46:46,420 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+2025-08-07 21:46:46,420 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 21:46:50,454 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-07 21:46:50,457 - INFO - 192.168.1.225 - - [07/Aug/2025 21:46:50] "GET / HTTP/1.1" 200 -
+2025-08-07 21:46:50,512 - INFO - 192.168.1.225 - - [07/Aug/2025 21:46:50] "GET /static/styles.css HTTP/1.1" 200 -
+2025-08-07 21:46:50,514 - INFO - 192.168.1.225 - - [07/Aug/2025 21:46:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-08-07 21:46:50,517 - INFO - 192.168.1.225 - - [07/Aug/2025 21:46:50] "[36mGET /static/cyberpunk-bg.jpg HTTP/1.1[0m" 304 -
+2025-08-07 21:47:05,161 - DEBUG - Received POST request to /monk: {"message":"hello"}
+2025-08-07 21:47:07,310 - INFO - Generated response for query: hello
+2025-08-07 21:47:07,311 - INFO - 192.168.1.225 - - [07/Aug/2025 21:47:07] "POST /monk HTTP/1.1" 200 -
+2025-08-07 21:53:27,673 - DEBUG - Received POST request to /monk: {"message":"hello"}
+2025-08-07 21:53:29,896 - INFO - Generated response for query: hello
+2025-08-07 21:53:29,897 - INFO - 192.168.1.225 - - [07/Aug/2025 21:53:29] "POST /monk HTTP/1.1" 200 -
+2025-08-07 21:53:33,329 - DEBUG - Received POST request to /monk: {"message":"where are you?"}
+2025-08-07 21:53:34,284 - INFO - Generated response for query: where are you?
+2025-08-07 21:53:34,285 - INFO - 192.168.1.225 - - [07/Aug/2025 21:53:34] "POST /monk HTTP/1.1" 200 -
+2025-08-07 21:53:47,153 - DEBUG - Received POST request to /monk: {"message":"andrewholland.com"}
+2025-08-07 21:53:48,088 - INFO - Generated response for query: andrewholland.com
+2025-08-07 21:53:48,089 - INFO - 192.168.1.225 - - [07/Aug/2025 21:53:48] "POST /monk HTTP/1.1" 200 -
+2025-08-07 22:05:02,908 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-07 22:05:02,909 - INFO - 192.168.1.225 - - [07/Aug/2025 22:05:02] "GET / HTTP/1.1" 200 -
+2025-08-07 22:05:02,923 - INFO - 192.168.1.225 - - [07/Aug/2025 22:05:02] "GET /static/styles.css HTTP/1.1" 200 -
+2025-08-07 22:05:02,923 - INFO - 192.168.1.225 - - [07/Aug/2025 22:05:02] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-08-07 22:05:02,927 - INFO - 192.168.1.225 - - [07/Aug/2025 22:05:02] "[36mGET /static/cyberpunk-bg.jpg HTTP/1.1[0m" 304 -
+2025-08-07 22:05:21,259 - INFO - Executing monitoring.py
+2025-08-07 22:05:21,259 - DEBUG - Looking up time zone info from registry
+2025-08-07 22:05:21,261 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-07 22:05:21,262 - INFO - Added job "monitor_urls" to job store "default"
+2025-08-07 22:05:21,262 - INFO - Scheduler started
+2025-08-07 22:05:21,263 - DEBUG - Looking for jobs to run
+2025-08-07 22:05:21,288 - DEBUG - Next wakeup is due at 2025-08-14 22:05:21.261035+07:00 (in 604799.972993 seconds)
+2025-08-07 22:05:57,871 - INFO - Scheduler has been shut down
+2025-08-07 22:05:57,871 - DEBUG - Looking for jobs to run
+2025-08-07 22:05:57,872 - DEBUG - No jobs; waiting until a job is added
+2025-08-07 22:05:57,872 - INFO - Monitoring stopped
+2025-08-07 22:06:00,406 - INFO - Starting Flask application
+2025-08-07 22:06:00,414 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+2025-08-07 22:06:00,414 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 22:06:05,115 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-07 22:06:05,118 - INFO - 192.168.1.225 - - [07/Aug/2025 22:06:05] "GET / HTTP/1.1" 200 -
+2025-08-07 22:06:05,173 - INFO - 192.168.1.225 - - [07/Aug/2025 22:06:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-08-07 22:06:05,175 - INFO - 192.168.1.225 - - [07/Aug/2025 22:06:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-08-07 22:06:05,180 - INFO - 192.168.1.225 - - [07/Aug/2025 22:06:05] "[36mGET /static/cyberpunk-bg.jpg HTTP/1.1[0m" 304 -
+2025-08-07 22:06:12,401 - DEBUG - Received POST request to /monk: {"message":"hello"}
+2025-08-07 22:06:14,806 - INFO - Generated response for query: hello
+2025-08-07 22:06:14,807 - INFO - 192.168.1.225 - - [07/Aug/2025 22:06:14] "POST /monk HTTP/1.1" 200 -
+2025-08-07 22:06:50,952 - DEBUG - Received POST request to /monk: {"message":"where are you"}
+2025-08-07 22:06:57,621 - INFO - Generated response for query: where are you
+2025-08-07 22:06:57,622 - INFO - 192.168.1.225 - - [07/Aug/2025 22:06:57] "POST /monk HTTP/1.1" 200 -
+2025-08-07 22:16:25,455 - INFO - Executing monitoring.py
+2025-08-07 22:16:25,456 - DEBUG - Looking up time zone info from registry
+2025-08-07 22:16:25,457 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-07 22:16:25,458 - INFO - Added job "monitor_urls" to job store "default"
+2025-08-07 22:16:25,459 - INFO - Scheduler started
+2025-08-07 22:16:25,459 - DEBUG - Looking for jobs to run
+2025-08-07 22:16:25,477 - DEBUG - Next wakeup is due at 2025-08-14 22:16:25.457426+07:00 (in 604799.979996 seconds)
+2025-08-07 22:35:39,213 - INFO - Scheduler has been shut down
+2025-08-07 22:35:39,214 - DEBUG - Looking for jobs to run
+2025-08-07 22:35:39,214 - DEBUG - No jobs; waiting until a job is added
+2025-08-07 22:35:39,214 - INFO - Monitoring stopped
+2025-08-07 22:35:50,159 - INFO - Starting Flask application
+2025-08-07 22:35:50,167 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+2025-08-07 22:35:50,168 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 22:35:55,263 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-07 22:35:55,266 - INFO - 192.168.1.225 - - [07/Aug/2025 22:35:55] "GET / HTTP/1.1" 200 -
+2025-08-07 22:35:55,329 - INFO - 192.168.1.225 - - [07/Aug/2025 22:35:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-08-07 22:35:55,333 - INFO - 192.168.1.225 - - [07/Aug/2025 22:35:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-08-07 22:35:55,337 - INFO - 192.168.1.225 - - [07/Aug/2025 22:35:55] "[36mGET /static/cyberpunk-bg.jpg HTTP/1.1[0m" 304 -
+2025-08-07 22:36:05,407 - DEBUG - Received POST request to /monk: {"message":"up and live"}
+2025-08-07 22:36:07,496 - INFO - Generated response for query: up and live, latency: 2.09s
+2025-08-07 22:36:07,497 - INFO - 192.168.1.225 - - [07/Aug/2025 22:36:07] "POST /monk HTTP/1.1" 200 -
+2025-08-07 22:41:07,956 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-07 22:41:07,957 - INFO - 192.168.1.225 - - [07/Aug/2025 22:41:07] "GET / HTTP/1.1" 200 -
+2025-08-07 22:41:07,968 - INFO - 192.168.1.225 - - [07/Aug/2025 22:41:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-08-07 22:41:07,969 - INFO - 192.168.1.225 - - [07/Aug/2025 22:41:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-08-07 22:41:07,974 - INFO - 192.168.1.225 - - [07/Aug/2025 22:41:07] "[36mGET /static/cyberpunk-bg.jpg HTTP/1.1[0m" 304 -
+2025-08-07 22:41:49,055 - DEBUG - Received POST request to /monk: {"message":"is it dark over there?"}
+2025-08-07 22:41:51,084 - INFO - Generated response for query: is it dark over there?, latency: 2.03s
+2025-08-07 22:41:51,085 - INFO - 192.168.1.225 - - [07/Aug/2025 22:41:51] "POST /monk HTTP/1.1" 200 -
+2025-08-07 22:54:06,751 - INFO - Executing monitoring.py
+2025-08-07 22:54:06,752 - DEBUG - Looking up time zone info from registry
+2025-08-07 22:54:06,753 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-07 22:54:06,754 - INFO - Added job "monitor_urls" to job store "default"
+2025-08-07 22:54:06,754 - INFO - Scheduler started
+2025-08-07 22:54:06,755 - DEBUG - Looking for jobs to run
+2025-08-07 22:54:06,788 - DEBUG - Next wakeup is due at 2025-08-14 22:54:06.753029+07:00 (in 604799.964993 seconds)
+2025-08-07 23:21:55,211 - INFO - Scheduler has been shut down
+2025-08-07 23:21:55,212 - DEBUG - Looking for jobs to run
+2025-08-07 23:21:55,212 - DEBUG - No jobs; waiting until a job is added
+2025-08-07 23:21:55,213 - INFO - Monitoring stopped
+2025-08-07 23:22:26,268 - INFO - Executing test_api.py
+2025-08-07 23:22:26,269 - INFO - Starting API test
+2025-08-07 23:22:26,270 - DEBUG - Generating content for 'Hello, world!'
+2025-08-07 23:22:26,911 - INFO - API response: Hello, world!  It's nice to meet you too.
+
+2025-08-08 03:06:51,519 - INFO - Executing monitoring.py
+2025-08-08 03:06:51,519 - DEBUG - Looking up time zone info from registry
+2025-08-08 03:06:51,521 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 03:06:51,522 - INFO - Added job "monitor_urls" to job store "default"
+2025-08-08 03:06:51,522 - INFO - Scheduler started
+2025-08-08 03:06:51,523 - DEBUG - Looking for jobs to run
+2025-08-08 03:06:51,548 - DEBUG - Next wakeup is due at 2025-08-15 03:06:51.521820+07:00 (in 604799.972995 seconds)
+2025-08-08 03:07:53,310 - INFO - Scheduler has been shut down
+2025-08-08 03:07:53,311 - DEBUG - Looking for jobs to run
+2025-08-08 03:07:53,311 - DEBUG - No jobs; waiting until a job is added
+2025-08-08 03:07:53,311 - INFO - Monitoring stopped
+2025-08-08 03:12:48,835 - INFO - Executing monitoring.py
+2025-08-08 03:12:48,835 - DEBUG - Looking up time zone info from registry
+2025-08-08 03:12:48,837 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-08 03:12:48,838 - INFO - Added job "monitor_urls" to job store "default"
+2025-08-08 03:12:48,838 - INFO - Scheduler started
+2025-08-08 03:12:48,839 - DEBUG - Looking for jobs to run
+2025-08-08 03:12:48,871 - DEBUG - Next wakeup is due at 2025-08-15 03:12:48.837373+07:00 (in 604799.965992 seconds)
+2025-08-08 03:13:33,018 - INFO - Scheduler has been shut down
+2025-08-08 03:13:33,019 - DEBUG - Looking for jobs to run
+2025-08-08 03:13:33,019 - DEBUG - No jobs; waiting until a job is added
+2025-08-08 03:13:33,020 - INFO - Monitoring stopped
+2025-08-08 03:14:17,067 - INFO - Starting Flask application
+2025-08-08 03:14:17,076 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+2025-08-08 03:14:17,076 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-08 03:14:22,813 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-08 03:14:22,816 - INFO - 192.168.1.225 - - [08/Aug/2025 03:14:22] "GET / HTTP/1.1" 200 -
+2025-08-08 03:14:22,876 - INFO - 192.168.1.225 - - [08/Aug/2025 03:14:22] "GET /static/styles.css HTTP/1.1" 200 -
+2025-08-08 03:14:22,882 - INFO - 192.168.1.225 - - [08/Aug/2025 03:14:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-08-08 03:14:32,133 - DEBUG - Received POST request to /monk: {"message":"hello"}
+2025-08-08 03:14:34,642 - INFO - Generated response for query: hello, latency: 2.51s
+2025-08-08 03:14:34,642 - INFO - 192.168.1.225 - - [08/Aug/2025 03:14:34] "POST /monk HTTP/1.1" 200 -
+2025-08-08 03:17:24,094 - DEBUG - Received POST request to /monk: {"message":"where is the monk hiding"}
+2025-08-08 03:17:26,066 - INFO - Generated response for query: where is the monk hiding, latency: 1.97s
+2025-08-08 03:17:26,067 - INFO - 192.168.1.225 - - [08/Aug/2025 03:17:26] "POST /monk HTTP/1.1" 200 -
+2025-08-08 03:23:05,563 - INFO - Starting Flask application
+2025-08-08 03:23:05,571 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+2025-08-08 03:23:05,572 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-08 03:23:10,947 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-08 03:23:10,950 - INFO - 192.168.1.225 - - [08/Aug/2025 03:23:10] "GET / HTTP/1.1" 200 -
+2025-08-08 03:23:11,006 - INFO - 192.168.1.225 - - [08/Aug/2025 03:23:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-08-08 03:23:11,009 - INFO - 192.168.1.225 - - [08/Aug/2025 03:23:11] "GET /static/styles.css HTTP/1.1" 200 -
+2025-08-08 03:23:11,014 - INFO - 192.168.1.225 - - [08/Aug/2025 03:23:11] "[36mGET /static/cyberpunk-bg.jpg HTTP/1.1[0m" 304 -
+2025-08-08 03:23:22,139 - DEBUG - Received POST request to /monk: {"message":"looking for Andrew"}
+2025-08-08 03:23:28,586 - INFO - Generated response for query: looking for andrew, latency: 6.45s
+2025-08-08 03:23:28,587 - INFO - 192.168.1.225 - - [08/Aug/2025 03:23:28] "POST /monk HTTP/1.1" 200 -
+2025-08-08 03:24:14,803 - DEBUG - Received POST request to /monk: {"message":"I was hoping to meet andrew today"}
+2025-08-08 03:24:22,804 - INFO - Generated response for query: i was hoping to meet andrew today, latency: 8.00s
+2025-08-08 03:24:22,805 - INFO - 192.168.1.225 - - [08/Aug/2025 03:24:22] "POST /monk HTTP/1.1" 200 -
+2025-08-08 03:46:59,615 - INFO - Starting Flask application
+2025-08-08 03:46:59,624 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+2025-08-08 03:46:59,625 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-08 03:47:03,961 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-08 03:47:03,964 - INFO - 192.168.1.225 - - [08/Aug/2025 03:47:03] "GET / HTTP/1.1" 200 -
+2025-08-08 03:47:04,019 - INFO - 192.168.1.225 - - [08/Aug/2025 03:47:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-08-08 03:47:04,020 - INFO - 192.168.1.225 - - [08/Aug/2025 03:47:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-08-08 03:47:04,026 - INFO - 192.168.1.225 - - [08/Aug/2025 03:47:04] "[36mGET /static/cyberpunk-bg.jpg HTTP/1.1[0m" 304 -
+2025-08-08 03:47:13,873 - DEBUG - Received POST request to /monk: {"message":"hello my name is Andrew"}
+2025-08-08 03:47:15,019 - INFO - Generated response for query: hello my name is andrew, latency: 1.15s
+2025-08-08 03:47:15,020 - INFO - 192.168.1.225 - - [08/Aug/2025 03:47:15] "POST /monk HTTP/1.1" 200 -
+2025-08-08 04:12:07,335 - DEBUG - Received POST request to /monk: {"message":"do you speak other languages?"}
+2025-08-08 04:12:08,182 - INFO - Generated response for query: do you speak other languages?, latency: 0.85s
+2025-08-08 04:12:08,183 - INFO - 192.168.1.225 - - [08/Aug/2025 04:12:08] "POST /monk HTTP/1.1" 200 -
+2025-08-08 04:48:44,279 - DEBUG - Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static\chat.html
+2025-08-08 04:48:44,281 - INFO - 192.168.1.225 - - [08/Aug/2025 04:48:44] "GET / HTTP/1.1" 200 -
+2025-08-08 04:48:44,296 - INFO - 192.168.1.225 - - [08/Aug/2025 04:48:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-08-08 04:48:44,296 - INFO - 192.168.1.225 - - [08/Aug/2025 04:48:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-08-08 04:48:44,303 - INFO - 192.168.1.225 - - [08/Aug/2025 04:48:44] "[36mGET /static/cyberpunk-bg.jpg HTTP/1.1[0m" 304 -
+INFO:root:Executing monitoring.py
+DEBUG:tzlocal:Looking up time zone info from registry
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "monitor_urls" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2025-08-15 05:23:46.319221+07:00 (in 604799.997999 seconds)
+INFO:root:Executing monitoring.py
+DEBUG:tzlocal:Looking up time zone info from registry
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "monitor_urls" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2025-08-15 05:35:20.668612+07:00 (in 604799.998000 seconds)
+INFO:root:Executing monitoring.py
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.andrewholland.com:80
+DEBUG:urllib3.connectionpool:http://www.andrewholland.com:80 "GET / HTTP/1.1" 301 795
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET / HTTP/1.1" 200 5021
+INFO:root:Successfully cached data from http://www.andrewholland.com
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET /career/Career_Identity.html HTTP/1.1" 200 2693
+INFO:root:Successfully cached data from https://www.andrewholland.com/career/Career_Identity.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET /timeline/index.html HTTP/1.1" 200 4425
+INFO:root:Successfully cached data from https://www.andrewholland.com/timeline/index.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /silicastormsiam HTTP/1.1" 200 None
+INFO:root:Successfully cached data from https://github.com/silicastormsiam
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /@SilicaStormSiam HTTP/1.1" 200 None
+INFO:root:Successfully cached data from https://www.youtube.com/@SilicaStormSiam
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET /downloads/aholland_executive_summary.pdf HTTP/1.1" 200 21702
+DEBUG:charset_normalizer:Encoding detection: Unable to determine any suitable charset.
+INFO:root:Successfully cached data from https://www.andrewholland.com/downloads/aholland_executive_summary.pdf
+INFO:root:Monitoring completed
+INFO:root:Monitoring script finished
+INFO:root:Executing monitoring.py
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.andrewholland.com:80
+DEBUG:urllib3.connectionpool:http://www.andrewholland.com:80 "GET / HTTP/1.1" 301 795
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET / HTTP/1.1" 200 5021
+INFO:root:Successfully cached data from http://www.andrewholland.com
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET /career/Career_Identity.html HTTP/1.1" 200 2693
+INFO:root:Successfully cached data from https://www.andrewholland.com/career/Career_Identity.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET /timeline/index.html HTTP/1.1" 200 4425
+INFO:root:Successfully cached data from https://www.andrewholland.com/timeline/index.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /silicastormsiam HTTP/1.1" 200 None
+INFO:root:Successfully cached data from https://github.com/silicastormsiam
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /@SilicaStormSiam HTTP/1.1" 200 None
+INFO:root:Successfully cached data from https://www.youtube.com/@SilicaStormSiam
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET /downloads/aholland_executive_summary.pdf HTTP/1.1" 200 21702
+DEBUG:charset_normalizer:Encoding detection: Unable to determine any suitable charset.
+INFO:root:Successfully cached data from https://www.andrewholland.com/downloads/aholland_executive_summary.pdf
+INFO:root:Monitoring completed
+INFO:root:Monitoring script finished
+INFO:root:Executing monitoring.py
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.andrewholland.com:80
+DEBUG:urllib3.connectionpool:http://www.andrewholland.com:80 "GET / HTTP/1.1" 301 795
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET / HTTP/1.1" 200 5021
+INFO:root:Successfully cached data from http://www.andrewholland.com
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET /career/Career_Identity.html HTTP/1.1" 200 2693
+INFO:root:Successfully cached data from https://www.andrewholland.com/career/Career_Identity.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET /timeline/index.html HTTP/1.1" 200 4425
+INFO:root:Successfully cached data from https://www.andrewholland.com/timeline/index.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /silicastormsiam HTTP/1.1" 200 None
+INFO:root:Successfully cached data from https://github.com/silicastormsiam
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /@SilicaStormSiam HTTP/1.1" 200 None
+INFO:root:Successfully cached data from https://www.youtube.com/@SilicaStormSiam
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET /downloads/aholland_executive_summary.pdf HTTP/1.1" 200 21702
+DEBUG:charset_normalizer:Encoding detection: Unable to determine any suitable charset.
+INFO:root:Successfully cached data from https://www.andrewholland.com/downloads/aholland_executive_summary.pdf
+INFO:root:Monitoring completed
+INFO:root:Monitoring script finished
+INFO:root:Executing monitoring.py
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.andrewholland.com:80
+DEBUG:urllib3.connectionpool:http://www.andrewholland.com:80 "GET / HTTP/1.1" 301 795
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET / HTTP/1.1" 200 5021
+INFO:root:Successfully cached data from http://www.andrewholland.com
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET /career/Career_Identity.html HTTP/1.1" 200 2693
+INFO:root:Successfully cached data from https://www.andrewholland.com/career/Career_Identity.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET /timeline/index.html HTTP/1.1" 200 4425
+INFO:root:Successfully cached data from https://www.andrewholland.com/timeline/index.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /silicastormsiam HTTP/1.1" 200 None
+INFO:root:Successfully cached data from https://github.com/silicastormsiam
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /@SilicaStormSiam HTTP/1.1" 200 None
+INFO:root:Successfully cached data from https://www.youtube.com/@SilicaStormSiam
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET /downloads/aholland_executive_summary.pdf HTTP/1.1" 200 21702
+DEBUG:charset_normalizer:Encoding detection: Unable to determine any suitable charset.
+INFO:root:Successfully cached data from https://www.andrewholland.com/downloads/aholland_executive_summary.pdf
+INFO:root:Monitoring completed
+INFO:root:Monitoring script finished
+INFO:root:Starting Flask application
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:root:Attempting to serve chat.html from M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\scripts\../static/chat.html
+INFO:werkzeug:192.168.1.225 - - [08/Aug/2025 11:27:08] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.225 - - [08/Aug/2025 11:27:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Starting Flask application
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Starting Flask application
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Executing monitoring.py
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.andrewholland.com:80
+DEBUG:urllib3.connectionpool:http://www.andrewholland.com:80 "GET / HTTP/1.1" 301 795
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET / HTTP/1.1" 200 5021
+INFO:root:Successfully cached data from http://www.andrewholland.com
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET /career/Career_Identity.html HTTP/1.1" 200 2693
+INFO:root:Successfully cached data from https://www.andrewholland.com/career/Career_Identity.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET /timeline/index.html HTTP/1.1" 200 4425
+INFO:root:Successfully cached data from https://www.andrewholland.com/timeline/index.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /silicastormsiam HTTP/1.1" 200 None
+INFO:root:Successfully cached data from https://github.com/silicastormsiam
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.youtube.com:443
+DEBUG:urllib3.connectionpool:https://www.youtube.com:443 "GET /@SilicaStormSiam HTTP/1.1" 200 None
+INFO:root:Successfully cached data from https://www.youtube.com/@SilicaStormSiam
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.andrewholland.com:443
+DEBUG:urllib3.connectionpool:https://www.andrewholland.com:443 "GET /downloads/aholland_executive_summary.pdf HTTP/1.1" 200 21702
+DEBUG:charset_normalizer:Encoding detection: Unable to determine any suitable charset.
+INFO:root:Successfully cached data from https://www.andrewholland.com/downloads/aholland_executive_summary.pdf
+INFO:root:Monitoring completed
+INFO:root:Monitoring script finished
+INFO:root:Starting Flask application
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Starting Flask application
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Starting Flask application
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Starting Flask application
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Starting Flask application
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Starting Flask application
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+2025-08-08 21:10:09,502 - INFO - Starting Flask application
+2025-08-08 21:10:09,529 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.225:5000
+2025-08-08 21:10:09,529 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-08 21:10:09,530 - INFO -  * Restarting with stat
+2025-08-08 21:10:10,123 - INFO - Starting Flask application
+2025-08-08 21:10:10,139 - WARNING -  * Debugger is active!
+2025-08-08 21:10:10,143 - INFO -  * Debugger PIN: 722-545-643
+2025-08-09 13:52:39,719 - INFO - Executing database.py
+2025-08-09 13:52:39,720 - DEBUG - Attempting to connect to database at: M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\data_cache.db
+2025-08-09 13:52:39,778 - DEBUG - Connected to database at: M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot\data_cache.db
+2025-08-09 13:52:39,781 - INFO - Database initialized successfully with table 'data_cache'
+2025-08-09 13:52:39,782 - DEBUG - Table 'data_cache' confirmed to exist
+2025-08-09 13:52:39,782 - DEBUG - Database connection closed
+2025-08-09 22:04:51,030 - ERROR - GOOGLE_API_KEY not found in .env
