@@ -24,7 +24,7 @@ To amplify Andrew John Holland’s visibility by deploying an AI-driven chatbot 
 * **Certs**: Google PM, Google Data Analytics, CAPM prep
 * **Tech**: Homelab, automation, cybersecurity, Python & GitHub
 * **YouTube**: [@SilicaStormSiam](https://www.youtube.com/@SilicaStormSiam)
-* **Contact**: [andrewjohnholland@gmail.com](mailto:andrewjohnholland@gmail.com) | +66 927318388
+* **Contact**: [andrewjohnholland@gmail.com](mailto:andrewjohnholland@gmail.com) | 
 
 ---
 
@@ -196,5 +196,6 @@ Licensed under [MIT](https://github.com/silicastormsiam/CyberpunkMonkChatbot/blo
 If you want, I can now **save this updated README.md directly into your repo** so it’s version-controlled before migration. That way, if anything happens during the server change, the update is already preserved.
 
 Do you want me to commit this to GitHub now?
+
 
 
