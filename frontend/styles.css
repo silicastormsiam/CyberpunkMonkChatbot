@@ -1,170 +1,88 @@
 /*
 File: frontend/styles.css
 Owner: Andrew John Holland
-Purpose: CSS styles for futuristic high-tech chatbot UI with cyberpunk aesthetic
-Version: 1.5
+Purpose: Cyberpunk neon/translucent styling for the chatbot UI
+Version: 1.7
+Last Updated: 2025-08-11
+Change Log:
+v1.7 - Restored v1.6 neon layout; set background image to /static/cyberpunk-bg.jpg
+v1.6 - Polished glow/scroll; mobile tweaks
 */
+
 :root {
-    --turquoise: #00FFEF;
-    --pink: #FF00FF;
-    --mango: #FFD700;
+  --turquoise:#00FFEF;
+  --pink:#FF00FF;
+  --mango:#FFD700;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  background: #000 url('/static/cyberpunk-bg.jpg') center/cover no-repeat fixed;
+  min-height:100vh;
+  display:flex;align-items:center;justify-content:center;
+  color:#fff;font-family:system-ui,Segoe UI,Arial,Helvetica,sans-serif;
 }
 
-body {
-    background: url('../static/cyberpunk-bg.jpg') no-repeat center center fixed;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    font-family: sans-serif;
-    color: white;
+.chat-container{
+  width:90vw;max-width:720px;height:85vh;
+  background:rgba(0,0,0,.65);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:16px;
+  display:flex;flex-direction:column;overflow:hidden;
+  box-shadow:0 0 24px rgba(0,255,239,.25);
+  backdrop-filter:saturate(140%) blur(6px);
 }
 
-.chat-container {
-    width: 90vw;
-    max-width: 700px;
-    height: 85vh;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 255, 239, 0.3);
+#chat-history{
+  flex:1;padding:20px;overflow:auto;display:flex;flex-direction:column;gap:14px;
+}
+#chat-history::-webkit-scrollbar{width:8px}
+#chat-history::-webkit-scrollbar-track{background:rgba(255,255,255,.05)}
+#chat-history::-webkit-scrollbar-thumb{
+  background:var(--turquoise);border-radius:4px;box-shadow:0 0 10px var(--turquoise);
 }
 
-#chat-history {
-    flex: 1;
-    padding: 20px;
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.message{
+  max-width:78%;padding:12px 16px;border-radius:12px;
+  background:rgba(0,0,0,.82);border:2px solid rgba(255,255,255,.06);
+  transition:transform .15s ease;animation:slideIn .35s ease-out;
+}
+.message:hover{transform:scale(1.02)}
+.sender{
+  align-self:flex-end;color:var(--turquoise);border-color:var(--turquoise);
+  box-shadow:0 0 12px rgba(0,255,239,.5);
+  font-family:"Orbitron", system-ui, sans-serif;
+}
+.recipient{
+  align-self:flex-start;color:var(--pink);border-color:var(--pink);
+  box-shadow:0 0 12px rgba(255,0,255,.45);
 }
 
-#chat-history::-webkit-scrollbar {
-    width: 8px;
+#chat-form{
+  display:flex;gap:10px;padding:14px;background:rgba(0,0,0,.7);
+  border-top:1px solid rgba(255,255,255,.08);
 }
-
-#chat-history::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.4);
+#user-input{
+  flex:1;padding:14px;border-radius:10px;color:#fff;font-size:16px;
+  background:rgba(0,0,0,.85);border:2px solid var(--mango);
+  box-shadow:0 0 12px rgba(255,215,0,.4);outline:none;
 }
+#user-input:focus{box-shadow:0 0 18px rgba(255,215,0,.6)}
+#user-input::placeholder{color:rgba(255,255,255,.55);text-align:center}
 
-#chat-history::-webkit-scrollbar-thumb {
-    background: var(--turquoise);
-    border-radius: 4px;
-    box-shadow: 0 0 10px var(--turquoise);
+button{
+  padding:14px 22px;border-radius:10px;border:none;cursor:pointer;
+  background:var(--mango);color:#000;font-weight:700;
+  transition:transform .12s ease, box-shadow .2s ease;
 }
+button:hover{transform:translateY(-1px);box-shadow:0 0 20px rgba(255,215,0,.6)}
 
-.message {
-    padding: 12px 18px;
-    border-radius: 12px;
-    max-width: 75%;
-    background: rgba(0, 0, 0, 0.8);
-    animation: slideIn 0.5s ease-out;
-    transition: transform 0.2s ease;
-}
+@keyframes slideIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
 
-.message:hover {
-    transform: scale(1.02);
-}
-
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.sender {
-    align-self: flex-end;
-    font-family: 'Orbitron', sans-serif;
-    color: var(--turquoise);
-    border: 2px solid var(--turquoise);
-    box-shadow: 0 0 15px var(--turquoise);
-}
-
-.recipient {
-    align-self: flex-start;
-    font-family: 'Verdana', sans-serif;
-    color: var(--pink);
-    border: 2px solid var(--pink);
-    box-shadow: 0 0 15px var(--pink);
-}
-
-#chat-form {
-    display: flex;
-    padding: 15px;
-    background: rgba(0, 0, 0, 0.7);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-#user-input {
-    flex: 1;
-    padding: 15px;
-    background: rgba(0, 0, 0, 0.8);
-    border: 2px solid var(--mango);
-    border-radius: 8px;
-    color: white;
-    font-size: 16px;
-    outline: none;
-    box-shadow: 0 0 15px var(--mango);
-    transition: box-shadow 0.3s ease;
-}
-
-#user-input:focus {
-    box-shadow: 0 0 20px var(--mango);
-}
-
-#user-input::placeholder {
-    color: rgba(255, 255, 255, 0.5);
-    text-align: center;
-}
-
-button {
-    padding: 15px 25px;
-    background: var(--mango);
-    border: none;
-    color: black;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 8px;
-    margin-left: 10px;
-    transition: box-shadow 0.3s ease, transform 0.2s ease;
-}
-
-button:hover {
-    box-shadow: 0 0 20px var(--mango);
-    transform: scale(1.05);
-}
-
-@media (max-width: 600px) {
-    .chat-container {
-        width: 95vw;
-        height: 90vh;
-    }
-
-    #user-input {
-        font-size: 14px;
-        padding: 12px;
-    }
-
-    button {
-        padding: 12px 20px;
-    }
-
-    .message {
-        max-width: 85%;
-        padding: 10px 15px;
-    }
+@media (max-width:600px){
+  .chat-container{width:95vw;height:90vh}
+  .message{max-width:86%}
+  #user-input{font-size:15px;padding:12px}
+  button{padding:12px 18px}
 }

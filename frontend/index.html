@@ -1,18 +1,32 @@
-<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyberpunk Monk Chatbot</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="../static/favicon.ico">
-    <style>body { background-image: url('../static/cyberpunk-bg.jpg'); }</style>
-
-
-    
-        
-        
-            
-            <button type="submit">Send</button>
-        
-    
-    <script src='script.js'></script>
-
-
+<!--
+File: frontend/index.html
+Owner: Andrew John Holland
+Purpose: Neon/translucent UI for Cyberpunk Monk, wired to FastAPI /api/chat
+Version: 1.1
+Last Updated: 2025-08-11
+Change Log:
+1.0 - Initial build - 2025-08-10
+1.1 - Updated asset paths to absolute (/frontend, /static) for FastAPI serving - 2025-08-11
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cyberpunk Monk Chatbot</title>
+  <link rel="icon" href="/static/favicon.ico" />
+  <link rel="stylesheet" href="/frontend/styles.css" />
+  <!-- Background image kept external to CSS so you can disable quickly if needed -->
+  <style>body { background-image: url('/static/cyberpunk-bg.jpg'); }</style>
+</head>
+<body>
+  <div class="chat-container">
+    <div id="chat-history" aria-live="polite"></div>
+    <form id="chat-form" autocomplete="off">
+      <input id="user-input" type="text" placeholder="Ask CP Monk…" aria-label="Message" />
+      <button type="submit" aria-label="Send">Send</button>
+    </form>
+  </div>
+  <script src="/frontend/script.js"></script>
+</body>
+</html>
