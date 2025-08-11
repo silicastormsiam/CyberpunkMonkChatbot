@@ -1,32 +1,112 @@
 <!--
 File: frontend/index.html
 Owner: Andrew John Holland
-Purpose: Neon/translucent UI for Cyberpunk Monk, wired to FastAPI /api/chat
-Version: 1.1
+Purpose: Chat UI with andrewholland.com header/footer; alternating tiles; neon portal on grey tile; centered Orbitron/glow title
+Version: 1.9
 Last Updated: 2025-08-11
 Change Log:
-1.0 - Initial build - 2025-08-10
+1.9 - Title color switched to site dark blue (blue-950) with matching glow; title centered above chatbox
+1.8 - Centered title above chatbox; Orbitron font added; subtle neon glow applied to title
+1.7 - Added title and mission statement tiles; constrained widths to match chatbox
+1.6 - Added text containers on off-white tiles above/below; width constrained to match chatbox (max 720px, 90vw)
+1.5 - Added alternating tiles (off-white, grey, off-white); centered neon chatbox on grey tile; preserved no-page-scroll behavior
+1.4 - Merged andrewholland.com header/footer; kept full-page cyberpunk bg; restored page flow so neon stays inside chatbox
+1.3 - Integrated andrewholland.com header/footer; restored site palette; scoped overrides to keep neon inside chatbox
+1.2 - Added metadata block per ROE; verified asset paths; removed redundant inline background
 1.1 - Updated asset paths to absolute (/frontend, /static) for FastAPI serving - 2025-08-11
+1.0 - Initial build - 2025-08-10
 -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Cyberpunk Monk Chatbot</title>
+
+  <!-- Match andrewholland.com setup -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
   <link rel="icon" href="/static/favicon.ico" />
   <link rel="stylesheet" href="/frontend/styles.css" />
-  <!-- Background image kept external to CSS so you can disable quickly if needed -->
-  <style>body { background-image: url('/static/cyberpunk-bg.jpg'); }</style>
+
+  <!-- Orbitron for title + dark blue glow -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet" />
+  <style>
+    .portal-title{
+      font-family:"Orbitron", system-ui, sans-serif;
+      text-align:center;
+      color:#172554; /* dark blue (blue-950) */
+      letter-spacing:.5px;
+      text-shadow:
+        0 0 8px rgba(23,37,84,.60),
+        0 0 14px rgba(23,37,84,.40),
+        0 0 22px rgba(23,37,84,.25);
+    }
+  </style>
 </head>
-<body>
-  <div class="chat-container">
-    <div id="chat-history" aria-live="polite"></div>
-    <form id="chat-form" autocomplete="off">
-      <input id="user-input" type="text" placeholder="Ask CP Monk…" aria-label="Message" />
-      <button type="submit" aria-label="Send">Send</button>
-    </form>
-  </div>
+<body class="font-sans">
+  <!-- Header (identical to andrewholland.com) -->
+  <nav class="bg-blue-950 text-white p-4 sticky top-0 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="https://www.andrewholland.com" class="text-[32px] font-bold hover:text-pink-400">Andrew John Holland</a>
+      <ul class="flex space-x-6">
+        <li><a href="#about-anchor" class="hover:text-pink-400">About</a></li>
+        <li><a href="#experience-anchor" class="hover:text-pink-400">Experience</a></li>
+        <li><a href="#certifications-anchor" class="hover-text-pink-400">Certifications</a></li>
+        <li><a href="#projects-anchor" class="hover:text-pink-400">Projects</a></li>
+        <li><a href="/career/Career_Identity.html" class="hover:text-pink-400">Career Identity</a></li>
+        <li><a href="#contact-anchor" class="hover:text-pink-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Off-white tile (top) with centered Orbitron title; width constrained to chatbox -->
+    <section id="about-anchor" class="w-full bg-slate-200">
+      <div class="container mx-auto">
+        <div class="w-[90vw] max-w-[720px] mx-auto py-6">
+          <h2 class="portal-title text-xl md:text-2xl">Cyberpunk Monk — Chatbot</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Grey tile with neon portal centered -->
+    <section class="w-full bg-gray-300">
+      <div class="container mx-auto min-h-[60vh] flex items-center justify-center">
+        <div class="chat-container">
+          <div id="chat-history" aria-live="polite"></div>
+          <form id="chat-form" autocomplete="off">
+            <input id="user-input" type="text" placeholder="Ask CP Monk..." aria-label="Message" />
+            <button type="submit" aria-label="Send">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Off-white tile (bottom) with mission statement; width matches chatbox -->
+    <section id="projects-anchor" class="w-full bg-slate-200">
+      <div class="container mx-auto">
+        <div class="w-[90vw] max-w-[720px] mx-auto py-6">
+          <h2 class="text-xl md:text-2xl font-semibold text-blue-950">What is this?</h2>
+          <p class="mt-2 text-base md:text-lg text-gray-800">
+            Ask anything about my work or projects and get direct replies. No new tabs, no fluff—just answers in the box.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (identical to andrewholland.com) -->
+  <footer class="bg-blue-950 text-white py-4">
+    <div class="container mx-auto text-center">
+      <p class="text-base md:text-lg">
+        © 2025 Andrew John Holland. All rights reserved. |
+        <a href="http://www.andrewholland.com" class="text-blue-500 hover:text-pink-400">andrewholland.com</a>
+      </p>
+    </div>
+  </footer>
+
   <script src="/frontend/script.js"></script>
 </body>
 </html>

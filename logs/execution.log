@@ -735,3 +735,59 @@ INFO:werkzeug:[33mPress CTRL+C to quit[0m
 2025-08-11 13:08:01,927 - INFO - No cached data found
 2025-08-11 13:08:01,928 - INFO - Generated prompt (209 chars)
 2025-08-11 13:08:05,928 - INFO - Generated response (80 chars preview)
+2025-08-11 14:59:41,530 - DEBUG - Connected to PostgreSQL database at localhost:5432/cyberpunk_monk
+2025-08-11 14:59:41,531 - INFO - PostgreSQL database initialized with table data_cache
+2025-08-11 14:59:41,536 - DEBUG - Table data_cache confirmed to exist (PostgreSQL)
+2025-08-11 14:59:41,536 - INFO - Database initialized
+2025-08-11 14:59:57,996 - INFO - Received request at /api/chat
+2025-08-11 14:59:58,028 - INFO - No cached data found
+2025-08-11 14:59:58,029 - INFO - Generated prompt (200 chars)
+2025-08-11 15:00:00,536 - INFO - Generated response (80 chars preview)
+2025-08-11 15:00:35,693 - INFO - Received request at /api/chat
+2025-08-11 15:00:35,727 - INFO - No cached data found
+2025-08-11 15:00:35,727 - INFO - Generated prompt (223 chars)
+2025-08-11 15:00:36,720 - INFO - Generated response (80 chars preview)
+2025-08-11 15:00:58,477 - INFO - Received request at /api/chat
+2025-08-11 15:00:58,509 - INFO - No cached data found
+2025-08-11 15:00:58,510 - INFO - Generated prompt (213 chars)
+2025-08-11 15:01:00,950 - INFO - Generated response (80 chars preview)
+2025-08-11 15:09:51,483 - INFO - Received request at /api/chat
+2025-08-11 15:09:51,516 - INFO - No cached data found
+2025-08-11 15:09:51,517 - INFO - Generated prompt (192 chars)
+2025-08-11 15:09:53,709 - INFO - Generated response (80 chars preview)
+2025-08-11 18:45:45,506 - INFO - Received request at /api/chat
+2025-08-11 18:45:45,540 - INFO - No cached data found
+2025-08-11 18:45:45,540 - INFO - Generated prompt (195 chars)
+2025-08-11 18:45:48,010 - INFO - Generated response (80 chars preview)
+2025-08-11 18:47:00,593 - DEBUG - Connected to PostgreSQL database at localhost:5432/cyberpunk_monk
+2025-08-11 18:47:00,595 - INFO - PostgreSQL database initialized with table data_cache
+2025-08-11 18:47:00,599 - DEBUG - Table data_cache confirmed to exist (PostgreSQL)
+2025-08-11 18:47:00,600 - INFO - Database initialized
+2025-08-11 19:04:41,562 - INFO - Received request at /api/chat
+2025-08-11 19:04:41,595 - INFO - No cached data found
+2025-08-11 19:04:41,596 - INFO - Generated prompt (195 chars)
+2025-08-11 19:04:44,246 - INFO - Generated response (80 chars preview)
+2025-08-11 19:24:28,975 - INFO - Received request at /api/chat
+2025-08-11 19:24:29,009 - INFO - No cached data found
+2025-08-11 19:24:29,010 - INFO - Generated prompt (200 chars)
+2025-08-11 19:26:37,507 - INFO - Generated response (80 chars preview)
+2025-08-11 19:28:43,151 - INFO - Received request at /api/chat
+2025-08-11 19:28:43,185 - INFO - No cached data found
+2025-08-11 19:28:43,185 - INFO - Generated prompt (195 chars)
+2025-08-11 19:28:45,785 - INFO - Generated response (80 chars preview)
+2025-08-11 19:28:54,896 - INFO - Received request at /api/chat
+2025-08-11 19:28:54,930 - INFO - No cached data found
+2025-08-11 19:28:54,930 - INFO - Generated prompt (215 chars)
+2025-08-11 19:28:56,448 - INFO - Generated response (80 chars preview)
+2025-08-11 19:48:50,349 - INFO - Received request at /api/chat
+2025-08-11 19:48:50,384 - INFO - No cached data found
+2025-08-11 19:48:50,385 - INFO - Generated prompt (205 chars)
+2025-08-11 19:48:52,368 - INFO - Generated response (80 chars preview)
+2025-08-11 20:00:11,580 - INFO - Received request at /api/chat
+2025-08-11 20:00:11,614 - INFO - No cached data found
+2025-08-11 20:00:11,615 - INFO - Generated prompt (210 chars)
+2025-08-11 20:00:13,971 - INFO - Generated response (80 chars preview)
+2025-08-11 20:00:25,908 - INFO - Received request at /api/chat
+2025-08-11 20:00:25,942 - INFO - No cached data found
+2025-08-11 20:00:25,943 - INFO - Generated prompt (211 chars)
+2025-08-11 20:00:27,134 - INFO - Generated response (80 chars preview)
