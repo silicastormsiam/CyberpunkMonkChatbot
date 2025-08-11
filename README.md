@@ -1,5 +1,3 @@
----
-
 # Cyberpunk Monk Chatbot Project Documentation & Handover Report
 
 ## 🔍 Project Overview
@@ -198,4 +196,5 @@ Licensed under [MIT](https://github.com/silicastormsiam/CyberpunkMonkChatbot/blo
 If you want, I can now **save this updated README.md directly into your repo** so it’s version-controlled before migration. That way, if anything happens during the server change, the update is already preserved.
 
 Do you want me to commit this to GitHub now?
+
 
