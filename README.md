@@ -1,3 +1,23 @@
+
+```markdown
+## 🚨 ANNOUNCEMENT – CYBERPUNK MONK IS LIVE 🚨
+
+The **Cyberpunk Monk Chatbot** has emerged from its long digital exile.  
+Now fully operational on the **local network** at:
+
+```
+
+[http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+```
+
+✅ Stability milestone achieved: **24 hours flawless uptime**  
+🛠 Next step: Public deployment at [andrewholland.com](https://www.andrewholland.com)
+
+*"From localhost shadows to the neon streets, the Monk walks again…"*  
+
+---
+
 # Cyberpunk Monk Chatbot Project Documentation & Handover Report
 
 ## 🔍 Project Overview
@@ -6,7 +26,7 @@ Welcome to the consolidated documentation for the **Cyberpunk Monk Chatbot** —
 
 > *"Through neon rain and broken code, a monk walks silently—not to preach, but to redirect you to the truth: [www.andrewholland.com](http://www.andrewholland.com)."*
 
-**🔗 GitHub Repo**: [CyberpunkMonkChatbot](https://github.com/silicastormsiam/CyberpunkMonkChatbot)
+**🔗 GitHub Repo**: [CyberpunkMonkChatbot](https://github.com/silicastormsiam/CyberpunkMonkChatbot)  
 **🔄 Local Path**: `M:\OneDrive\Documents\GitHub\CyberpunkMonkChatbot`
 
 ### 🎯 Mission Statement
@@ -24,7 +44,7 @@ To amplify Andrew John Holland’s visibility by deploying an AI-driven chatbot 
 * **Certs**: Google PM, Google Data Analytics, CAPM prep
 * **Tech**: Homelab, automation, cybersecurity, Python & GitHub
 * **YouTube**: [@SilicaStormSiam](https://www.youtube.com/@SilicaStormSiam)
-* **Contact**: [andrewjohnholland@gmail.com](mailto:andrewjohnholland@gmail.com) | 
+* **Contact**: [andrewjohnholland@gmail.com](mailto:andrewjohnholland@gmail.com)
 
 ---
 
@@ -40,10 +60,11 @@ To amplify Andrew John Holland’s visibility by deploying an AI-driven chatbot 
 * Never breaks character—only silence
 
 **Sample Response:**
-
 ```
+
 👤: What is Andrew working on now?
 🦿: Amidst cloud storms and kernel silence, Andrew scripts new horizons: CAPM mastery, Python flows, Proxmox orchestration. Seek him at andrewholland.com.
+
 ```
 
 ---
@@ -63,7 +84,6 @@ To amplify Andrew John Holland’s visibility by deploying an AI-driven chatbot 
 * **Scheduler**: APScheduler
 * **Database**: SQLite (`data_cache.db`)
 * **Monitoring**: Scheduled scraping of:
-
   * [andrewholland.com](https://www.andrewholland.com)
   * GitHub & YouTube profiles
   * Resume PDF content
@@ -77,20 +97,21 @@ To amplify Andrew John Holland’s visibility by deploying an AI-driven chatbot 
 
 ### Core Workflow
 
-1. User inputs query via Web/CLI
-2. App determines relevance
-3. Fetches & embeds context from cache
-4. Builds prompt with redirect bias
-5. Sends to Gemini API
+1. User inputs query via Web/CLI  
+2. App determines relevance  
+3. Fetches & embeds context from cache  
+4. Builds prompt with redirect bias  
+5. Sends to Gemini API  
 6. Returns response + logs interaction
 
 ### Requirements
-
 ```
+
 flask, flask-cors, google-generativeai, requests,
 beautifulsoup4, PyPDF2, APScheduler,
 python-dotenv, PyGithub, google-api-python-client
-```
+
+````
 
 ---
 
@@ -99,11 +120,10 @@ python-dotenv, PyGithub, google-api-python-client
 As of **2025-08-11**, the Cyberpunk Monk Chatbot has completed **local deployment validation** in the `cyberpunk_monk` Conda environment. Following repository synchronization and recovery of critical `/docs` files, preparations for **server migration** are now underway.
 
 **Key Advancements:**
-
-* **Server Migration Plan** – Moving from the current host to a **new production server** for improved stability and performance.
-* **Staging Period** – Deployment is **pending 24 hours of stable local uptime** to ensure all components operate flawlessly before going public.
-* **Backup & Recovery Protocols** – SQLite (`data_cache.db`) auto-backups and Git safeguards added to prevent data loss.
-* **Error Handling Enhancements** – Built-in recovery steps for `index.lock` issues, rebase conflicts, and file protection.
+* **Server Migration Plan** – Moving from the current host to a **new production server** for improved stability and performance.  
+* **Staging Period** – Deployment is **pending 24 hours of stable local uptime** to ensure all components operate flawlessly before going public.  
+* **Backup & Recovery Protocols** – SQLite (`data_cache.db`) auto-backups and Git safeguards added to prevent data loss.  
+* **Error Handling Enhancements** – Built-in recovery steps for `index.lock` issues, rebase conflicts, and file protection.  
 
 Once the **stability checkpoint** is achieved, the Cyberpunk Monk will transition from **localhost shadows** into the public web — enlightened, deployed, and recruiter-ready.
 
@@ -112,13 +132,12 @@ Once the **stability checkpoint** is achieved, the Cyberpunk Monk will transitio
 ## 🚀 Setup & Deployment
 
 ### Local Setup
-
 ```bash
 git clone https://github.com/silicastormsiam/CyberpunkMonkChatbot.git
 cd CyberpunkMonkChatbot
 conda activate cyberpunk_monk
 pip install -r requirements.txt
-```
+````
 
 ```bash
 python scripts/database.py
@@ -191,11 +210,6 @@ Licensed under [MIT](https://github.com/silicastormsiam/CyberpunkMonkChatbot/blo
 
 > *"To walk the Way of Code, one must also read the README." — Cyberpunk Monk*
 
----
-
-If you want, I can now **save this updated README.md directly into your repo** so it’s version-controlled before migration. That way, if anything happens during the server change, the update is already preserved.
-
-Do you want me to commit this to GitHub now?
-
-
+```
+```
 
